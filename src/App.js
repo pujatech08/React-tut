@@ -5,6 +5,7 @@ import User from './User';
 import { useState } from 'react';
 import ClassState from './ClassState';
 import PropFunction from './PropFunction';
+import PropClass from './PropClass';
 
 function App() {
   let data = "Click Event Example";
@@ -31,6 +32,7 @@ function App() {
       <ClassState />
       <h3>Props in React</h3>
       <PropFunction name="Ram" age={26}/>
+      <PropClass name="Krishna" />
     </div>
   );
 }
