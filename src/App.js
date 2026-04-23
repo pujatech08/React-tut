@@ -4,6 +4,7 @@ import Users from './Users';
 import User from './User';
 import { useState } from 'react';
 import ClassState from './ClassState';
+import PropFunction from './PropFunction';
 
 function App() {
   let data = "Click Event Example";
@@ -28,6 +29,8 @@ function App() {
       <h3>Count: {count}</h3>
       <button onClick={updateData}>Update Data</button>
       <ClassState />
+      <h3>Props in React</h3>
+      <PropFunction name="Ram" age={26}/>
     </div>
   );
 }
