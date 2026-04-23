@@ -7,11 +7,15 @@ class PropClass extends Component{
             name : "Ram"
         }
     }
+
+    updateName = () => {
+        this.setState({name : "Krishna"});
+    }
     render(){
         return(
             <>
              <h3>Name : {this.props.name}</h3>
-             <button onClick={this.setState({name:"Radhe"})}>Update Name</button>
+             <button onClick={this.updateName}>Update Name</button>
             </>
         )
     }

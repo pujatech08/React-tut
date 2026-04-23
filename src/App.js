@@ -6,6 +6,7 @@ import { useState } from 'react';
 import ClassState from './ClassState';
 import PropFunction from './PropFunction';
 import PropClass from './PropClass';
+import InputBox from './InputBox';
 
 function App() {
   let data = "Click Event Example";
@@ -32,7 +33,9 @@ function App() {
       <ClassState />
       <h3>Props in React</h3>
       <PropFunction name="Ram" age={26}/>
-      <PropClass name="Krishna" />
+      <PropClass name="Test" />
+      <h3>Input event</h3>
+       <InputBox />
     </div>
   );
 }
