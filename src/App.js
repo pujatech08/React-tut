@@ -2,12 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Users from './Users';
 import User from './User';
+import { useState } from 'react';
 
 function App() {
   let data = "Click Event Example";
   function clickEvent(){
      data = "Button Clicked";
     alert("Button CLicked");
+  }
+
+  const [count,setCount] = useState(0);
+  function updateData(){
+    setCount(count + 1);
   }
   return (
     <div className="App">
@@ -17,6 +23,9 @@ function App() {
       <Users />
       <h3>{data}</h3>
       <button onClick={clickEvent}>Click Me</button>
+      <h3>State in React</h3>
+      <h3>Count: {count}</h3>
+      <button onClick={updateData}>Update Data</button>
     </div>
   );
 }

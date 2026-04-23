@@ -55,7 +55,7 @@ what is state.
 It is an object in which we can store the data.
 
 why used state
-Because when we are store direct variable component is not changed that's why we can used it.
+Because when we are store direct variable component value is not changed that's why we can used it.
 
 State in Class component
 
