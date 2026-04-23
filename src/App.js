@@ -3,6 +3,7 @@ import './App.css';
 import Users from './Users';
 import User from './User';
 import { useState } from 'react';
+import ClassState from './ClassState';
 
 function App() {
   let data = "Click Event Example";
@@ -26,6 +27,7 @@ function App() {
       <h3>State in React</h3>
       <h3>Count: {count}</h3>
       <button onClick={updateData}>Update Data</button>
+      <ClassState />
     </div>
   );
 }
