@@ -7,6 +7,7 @@ import ClassState from './ClassState';
 import PropFunction from './PropFunction';
 import PropClass from './PropClass';
 import InputBox from './InputBox';
+import HideShow from './HideShow';
 
 function App() {
   let data = "Click Event Example";
@@ -36,6 +37,7 @@ function App() {
       <PropClass name="Test" />
       <h3>Input event</h3>
        <InputBox />
+      <HideShow />
     </div>
   );
 }
