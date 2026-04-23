@@ -4,7 +4,7 @@ class Users extends Component{
     render(){
         return(
             <>
-            <h1>This is a class component</h1>
+            <h5>This is a class component</h5>
             </>
         )
     }

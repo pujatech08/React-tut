@@ -1,7 +1,7 @@
 function User(){
     return(
         <>
-        <h1>User Component</h1>
+        <h5>User Component</h5>
         </>
     )
 }
