@@ -1,0 +1,65 @@
+1. why we used NPM?
+ - Node package manegar 
+ - Its store are all package in the node module folder.
+ - reduce the code into the minified
+
+2. What is the alternative of NPM?
+Yan is the alternative of NPM.
+
+3. react version ?
+19.2.5
+
+4. What is package.json ?
+It's a most important file which store all the package.
+
+5. How to add new npm package?
+-  first npm install package name
+- 2nd way direct add the package with version in package.json file and the run this npm install package then its install it.
+
+6. remove npm package
+- 1st npm uninstall package name
+- 2nd remove from the package.json file and run npm install its remove the package.
+
+7. custom commands
+"scripts": {
+    "Puja": "react-scripts start",
+  },
+
+  npm Puja its work now 
+
+8. What is component?
+- A piece of code that can reuse
+- Such as function
+- But more powerful than function - Because it's on life circle and scope
+- Header abd footer is best example of component.
+- component is used in same page and other page as well.
+
+9 Type of component?
+Functional component
+class component
+HOC(High order component)
+pure component
+controlled component
+Uncontrolled component
+
+10 One component we can create another component.
+
+11 Angular and react we can write in on project.
+Yes we can do that
+
+11. JavaScript xml(JSX)
+- Write HTML and JavaScript together
+
+State in Functional component
+what is state.
+It is an object in which we can store the data.
+
+why used state
+Because when we are store direct variable component is not changed that's why we can used it.
+
+State in Class component
+
+Props with functional component
+
+
+
