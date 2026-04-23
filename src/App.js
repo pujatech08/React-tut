@@ -8,6 +8,7 @@ import PropFunction from './PropFunction';
 import PropClass from './PropClass';
 import InputBox from './InputBox';
 import HideShow from './HideShow';
+import BasicForm from './BasicForm';
 
 function App() {
   let data = "Click Event Example";
@@ -38,6 +39,7 @@ function App() {
       <h3>Input event</h3>
        <InputBox />
       <HideShow />
+      <BasicForm />
     </div>
   );
 }
