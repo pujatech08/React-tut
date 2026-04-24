@@ -11,6 +11,8 @@ import HideShow from './HideShow';
 import BasicForm from './BasicForm';
 import ConditionalRender from './ConditionalRender';
 import BasicFormValidation from './BasicFormValidation';
+import Constructor from './Constructor';
+import RenderLifeCyclic from './RenderLifeCyclic';
 
 function App() {
   let data = "Click Event Example";
@@ -44,6 +46,9 @@ function App() {
       <BasicForm />
       <ConditionalRender />
       <BasicFormValidation />
+      {/* <passFuncProps data="Hello, Props!" /> */}
+      <Constructor />
+      <RenderLifeCyclic />
     </div>
   );
 }
