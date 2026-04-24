@@ -13,6 +13,7 @@ import ConditionalRender from './ConditionalRender';
 import BasicFormValidation from './BasicFormValidation';
 import Constructor from './Constructor';
 import RenderLifeCyclic from './RenderLifeCyclic';
+import ComponentDidMount from './ComponentDidMount';
 
 function App() {
   let data = "Click Event Example";
@@ -49,6 +50,7 @@ function App() {
       {/* <passFuncProps data="Hello, Props!" /> */}
       <Constructor />
       <RenderLifeCyclic />
+      <ComponentDidMount />
     </div>
   );
 }
