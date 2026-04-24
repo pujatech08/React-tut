@@ -10,6 +10,7 @@ import InputBox from './InputBox';
 import HideShow from './HideShow';
 import BasicForm from './BasicForm';
 import ConditionalRender from './ConditionalRender';
+import BasicFormValidation from './BasicFormValidation';
 
 function App() {
   let data = "Click Event Example";
@@ -42,6 +43,7 @@ function App() {
       <HideShow />
       <BasicForm />
       <ConditionalRender />
+      <BasicFormValidation />
     </div>
   );
 }
