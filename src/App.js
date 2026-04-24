@@ -14,6 +14,7 @@ import BasicFormValidation from './BasicFormValidation';
 import Constructor from './Constructor';
 import RenderLifeCyclic from './RenderLifeCyclic';
 import ComponentDidMount from './ComponentDidMount';
+import ComponentDidUpdate from './ComponentDidUpdate';
 
 function App() {
   let data = "Click Event Example";
@@ -51,6 +52,7 @@ function App() {
       <Constructor />
       <RenderLifeCyclic />
       <ComponentDidMount />
+      <ComponentDidUpdate />
     </div>
   );
 }
