@@ -15,7 +15,9 @@ import Constructor from './Constructor';
 import RenderLifeCyclic from './RenderLifeCyclic';
 import ComponentDidMount from './ComponentDidMount';
 import ComponentDidUpdate from './ComponentDidUpdate';
-
+import ComponentUnMount from './ComponentUnMount';
+import UseEffectExp from './UseEffectExp';
+import UseEffectFunc from './UseEffectFunc';
 function App() {
   let data = "Click Event Example";
   function clickEvent(){
@@ -53,6 +55,9 @@ function App() {
       <RenderLifeCyclic />
       <ComponentDidMount />
       <ComponentDidUpdate />
+      <ComponentUnMount />
+      <UseEffectExp />
+      <UseEffectFunc />
     </div>
   );
 }
