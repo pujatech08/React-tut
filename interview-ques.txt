@@ -69,5 +69,12 @@ life cycle,pure component etc
 What is useEffect?
 
 
+Install Bootstrap
+Css and js ki libarary hai 
+https://react-bootstrap.netlify.app/docs/getting-started/introduction
+
+commands for install bootstrap
+npm install react-bootstrap bootstrap
+
 
 

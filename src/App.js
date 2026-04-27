@@ -19,6 +19,7 @@ import ComponentUnMount from './ComponentUnMount';
 import UseEffectExp from './UseEffectExp';
 import UseEffectFunc from './UseEffectFunc';
 import StyleReact from './StyleReact';
+import BootstrapExp from './BootstrapExp';
 function App() {
   let data = "Click Event Example";
   function clickEvent(){
@@ -60,6 +61,7 @@ function App() {
       <UseEffectExp />
       <UseEffectFunc />
       <StyleReact />
+      <BootstrapExp />
     </div>
   );
 }
