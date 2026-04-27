@@ -18,6 +18,7 @@ import ComponentDidUpdate from './ComponentDidUpdate';
 import ComponentUnMount from './ComponentUnMount';
 import UseEffectExp from './UseEffectExp';
 import UseEffectFunc from './UseEffectFunc';
+import StyleReact from './StyleReact';
 function App() {
   let data = "Click Event Example";
   function clickEvent(){
@@ -58,6 +59,7 @@ function App() {
       <ComponentUnMount />
       <UseEffectExp />
       <UseEffectFunc />
+      <StyleReact />
     </div>
   );
 }
