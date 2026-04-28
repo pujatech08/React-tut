@@ -83,6 +83,8 @@ What is React Fragment?
 
 Use it with Child commands.
 
+Lifting State Up / Cihild to parent component
+
 
 
 
