@@ -76,5 +76,13 @@ https://react-bootstrap.netlify.app/docs/getting-started/introduction
 commands for install bootstrap
 npm install react-bootstrap bootstrap
 
+Why use map function not forloop
+return() statement ke ander map support karna hai for loop nhi karta esliye hum react me array ke value show karne ke liye Map() ka use karte hai.
+
+What is React Fragment?
+
+Use it with Child commands.
+
+
 
 

@@ -20,6 +20,9 @@ import UseEffectExp from './UseEffectExp';
 import UseEffectFunc from './UseEffectFunc';
 import StyleReact from './StyleReact';
 import BootstrapExp from './BootstrapExp';
+import ArrayHandle from './ArrayHandle';
+import NestedArray from './NestedArray';
+import ReuseComp from './ReuseComp';
 function App() {
   let data = "Click Event Example";
   function clickEvent(){
@@ -62,6 +65,9 @@ function App() {
       <UseEffectFunc />
       <StyleReact />
       <BootstrapExp />
+      <ArrayHandle />
+      <NestedArray />
+      <ReuseComp />
     </div>
   );
 }
