@@ -26,6 +26,8 @@ import ReuseComp from "./ReuseComp";
 import ReactFragment from "./ReactFragment";
 import passFuncProps from "./passFuncProps";
 import ChildComp from "./ChildComp";
+import PureComponentExp from "./PureComponentExp";
+import UseMemoExp from "./UseMemoExp";
 function App() {
   let data = "Click Event Example";
   function clickEvent() {
@@ -78,6 +80,8 @@ function App() {
       <ReactFragment />
 
       <ChildComp alert={AlterData} />
+      <PureComponentExp />
+      <UseMemoExp />
     </div>
   );
 }

@@ -81,10 +81,22 @@ return() statement ke ander map support karna hai for loop nhi karta esliye hum 
 
 What is React Fragment?
 
+parent ke andher Fragment use karta hu to child ke ander bhi kar skte hai
+ <></> agr aeise Fragment defined kiya to esme class defined nhi kar skte key kar skte hai.
+ 
+
+
 Use it with Child commands.
 
 Lifting State Up / Cihild to parent component
 
+WHat is Pure Component?
+This is mostly used 
+How to use the Pure Component?
+
+Why use useMomo Hook?
+
+why use Ref
 
 
 
